@@ -9,6 +9,9 @@ import Church from "../Assets/church.png";
 import Crappo from "../Assets/crappo.png";
 import Yelpcamp from "../Assets/yelpcamp.png";
 import Harvoxx from "../Assets/harvoxx.png";
+import Movie from '../Assets/movie.png'
+import Kreader from '../Assets/k-reader.png'
+import Portfolio from '../Assets/portfolio.png'
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
@@ -71,10 +74,37 @@ const Homemain = () => {
       liveLink: "https://dhanie-ellah.github.io/MIMOSAN_clone/",
       githubLink: "https://github.com/dhanie-ellah/MIMOSAN_clone",
     },
+    {
+      img: Movie,
+      name: "MOVIEBOX",
+      description:
+        "A simple movie site that fetches movies and it's details from an API to display.",
+      stack: "React.js, TailwindCSS",
+      liveLink: "https://hngx-stage-2-task.vercel.app/",
+      githubLink: "https://github.com/dhanie-ellah/HNGX-stage-2-task",
+    },
+    {
+      img: Kreader,
+      name: "K-READER",
+      description:
+        "A simple E-book site where you can view different e-books and read them.",
+      stack: "React.js, TailwindCSS",
+      liveLink: "https://k-reader.vercel.app/",
+      githubLink: "https://github.com/dhanie-ellah/K-Reader",
+    },
+    {
+      img: Portfolio,
+      name: "DESIGN PORTFOLIO",
+      description:
+        "A simple design portfolio I designed and developed for myself",
+      stack: "React.js, TailwindCSS",
+      liveLink: "https://dhanie-graphix.netlify.app/",
+      githubLink: "https://github.com/dhanie-ellah/design-portfolio",
+    },
   ];
   // mapping projects
   const project = projects.map((Single) => (
-    <div className=" border rounded-xl w-[30%] flex flex-col gap-2 overflow-hidden lg:w-[48%] sm:w-full ">
+    <div className=" border rounded-xl flex flex-col gap-2 overflow-hidden ">
       <div className=" w-full overflow-hidden">
         <img src={Single.img} alt={Single.name} className=" w-full" />
       </div>
@@ -147,7 +177,7 @@ const Homemain = () => {
           <h1 className=" text-3xl font-bold">2.Projects</h1>
           <hr className="w-[8vw] h-[3px] bg-white border-none" />
         </header>
-        <div className=" flex justify-between flex-wrap gap-5">{project}</div>
+        <div className=" grid grid-cols-3 lg:grid-cols-2 md:grid-cols-1 gap-5">{project}</div>
       </div>
       {/* experience section */}
       <div className=" flex flex-col gap-3 pt-10" id="experience">

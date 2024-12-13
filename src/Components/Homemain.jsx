@@ -154,7 +154,7 @@ const Homemain = () => {
               I Code Websites
             </h1>
             <p className=" text-center text-gray-300">
-              I am a dynamic and detail-oriented Frontend Web Developer with 3+ years of experience creating efficient and innovative web applications. Proficient in HTML, CSS, JavaScript, React, and Tailwind CSS. Skilled in developing responsive websites for small businesses and collaborating on large-scale enterprise applications. Adept at collaborating with cross-functional teams to deliver exceptional user experiences, with a strong problem-solving ability and a keen eye for design.
+              I am a dynamic and detail-oriented Frontend Web Developer with 2+ years of experience creating efficient and innovative web applications. Proficient in HTML, CSS, JavaScript, React, and Tailwind CSS. Skilled in developing responsive websites for small businesses and collaborating on large-scale enterprise applications. Adept at collaborating with cross-functional teams to deliver exceptional user experiences, with a strong problem-solving ability and a keen eye for design.
             </p>
           </div>
           {/* cta buttons */}

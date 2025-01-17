@@ -172,15 +172,11 @@ const Homemain = () => {
             {/* <a href={Resume} className="button" download>
               Download CV
             </a> */}
-<<<<<<< HEAD
             <a
               href="https://drive.google.com/file/d/1XUvyP03UU9uIgjggK7BhMCVJghnuAVkx/view?usp=drive_link"
               className="button"
               target="blank"
             >
-=======
-            <a href="https://drive.google.com/file/d/1izd8N5XixwdO-lLFq0uHIZMs5awCgV4o/view?usp=drivesdk" className="button" target="blank">
->>>>>>> 67756f4452f3ccf519be5459148f4b9be94ee3f1
               Resume
             </a>
           </div>

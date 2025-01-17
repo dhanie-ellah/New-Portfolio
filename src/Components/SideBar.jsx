@@ -18,7 +18,7 @@ const SideBar = () => {
       <a href="https://linkedin.com/in/braide-daniella-biobele" target="blank">
         <FontAwesomeIcon icon={faLinkedin} className="socialIcons" />
       </a>
-      <a href="mailto:dannygodwin2003@gmail.com" target="blank">
+      <a href="mailto:braidedaniella@gmail.com" target="blank">
         <FontAwesomeIcon icon={faEnvelope} className="socialIcons" />
       </a>
     </div>

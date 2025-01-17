@@ -154,7 +154,14 @@ const Homemain = () => {
               I Code Websites
             </h1>
             <p className=" text-center text-gray-300">
-              I am a dynamic and detail-oriented Frontend Web Developer with 3+ years of experience creating efficient and innovative web applications. Proficient in HTML, CSS, JavaScript, React, and Tailwind CSS. Skilled in developing responsive websites for small businesses and collaborating on large-scale enterprise applications. Adept at collaborating with cross-functional teams to deliver exceptional user experiences, with a strong problem-solving ability and a keen eye for design.
+              I am a dynamic and detail-oriented Frontend Web Developer with 3+
+              years of experience creating efficient and innovative web
+              applications. Proficient in HTML, CSS, JavaScript, React, and
+              Tailwind CSS. Skilled in developing responsive websites for small
+              businesses and collaborating on large-scale enterprise
+              applications. Adept at collaborating with cross-functional teams
+              to deliver exceptional user experiences, with a strong
+              problem-solving ability and a keen eye for design.
             </p>
           </div>
           {/* cta buttons */}
@@ -165,7 +172,11 @@ const Homemain = () => {
             {/* <a href={Resume} className="button" download>
               Download CV
             </a> */}
-            <a href="https://drive.google.com/file/d/1XUvyP03UU9uIgjggK7BhMCVJghnuAVkx/view?usp=drive_link" className="button" target="blank">
+            <a
+              href="https://drive.google.com/file/d/1XUvyP03UU9uIgjggK7BhMCVJghnuAVkx/view?usp=drive_link"
+              className="button"
+              target="blank"
+            >
               Resume
             </a>
           </div>
@@ -177,7 +188,9 @@ const Homemain = () => {
           <h1 className=" text-3xl font-bold">2.Projects</h1>
           <hr className="w-[8vw] h-[3px] bg-white border-none" />
         </header>
-        <div className=" grid grid-cols-3 lg:grid-cols-2 md:grid-cols-1 gap-5">{project}</div>
+        <div className=" grid grid-cols-3 lg:grid-cols-2 md:grid-cols-1 gap-5">
+          {project}
+        </div>
       </div>
       {/* experience section */}
       <div className=" flex flex-col gap-3 pt-10" id="experience">
@@ -226,19 +239,33 @@ const Homemain = () => {
           <hr className="w-[8vw] h-[3px] bg-white border-none" />
         </header>
         <div className=" flex gap-5 md:flex-col">
-          <p className=" text-gray-500 w-[75%] md:w-full">I am actively seeking new opportunities and my inbox is always open and I’m interested in freelance opportunities. Whether you have a question or simply want to say Hello , I will respond!</p>
-          <button className=" bg-gray-800 rounded-lg px-5 py-2 text-white"><a href="mailto:dannygodwin2003@gmail.com">Say Hi</a></button>
+          <p className=" text-gray-500 w-[75%] md:w-full">
+            I am actively seeking new opportunities and my inbox is always open
+            and I’m interested in freelance opportunities. Whether you have a
+            question or simply want to say Hello , I will respond!
+          </p>
+          <button className=" bg-gray-800 rounded-lg px-5 py-2 text-white">
+            <a href="mailto:braidedaniella@gmail.com">Say Hi</a>
+          </button>
         </div>
       </div>
 
       <hr className=" outline-none border-none bg-gray-500 h-[1px]" />
 
       <div className=" flex items-center justify-between">
-        <p className=" text-center md:text-xs">Coded by <b>dhanie_ellah</b> | © Copyright 2024</p>
+        <p className=" text-center md:text-xs">
+          Coded by <b>dhanie_ellah</b> | © Copyright 2024
+        </p>
         <div className=" text-gray-500 flex gap-3 md:text-xs">
-          <FontAwesomeIcon icon={faEnvelope} />
-          <FontAwesomeIcon icon={faGithub} />
-          <FontAwesomeIcon icon={faLinkedin} />
+          <a href="mailto:braidedaniella@gmail.com" target="blank">
+            <FontAwesomeIcon icon={faEnvelope} />
+          </a>
+          <a href="https://github.com/dhanie-ellah" target="blank">
+            <FontAwesomeIcon icon={faGithub} />
+          </a>
+          <a href="https://linkedin.com/in/braide-daniella-biobele" target="blank">
+            <FontAwesomeIcon icon={faLinkedin} />
+          </a>
         </div>
       </div>
     </div>
